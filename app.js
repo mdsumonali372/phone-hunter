@@ -28,9 +28,7 @@ const displayPhones = (phones, dataLimit) => {
   const phoneContainer = document.getElementById("phone-container");
 
   //   display no phone found
-
   const noPhone = document.getElementById("no-phone-found");
-
   if (phones.length === 0) {
     noPhone.classList.remove("d-none");
   } else {
